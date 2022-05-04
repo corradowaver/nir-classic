@@ -7,7 +7,7 @@ import javax.persistence.Table
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 @Entity
-@Table(name = "Users")
+@Table(name = "users")
 data class User(
   @Id
   val username: String,
